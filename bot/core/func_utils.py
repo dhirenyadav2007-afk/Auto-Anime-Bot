@@ -61,7 +61,7 @@ async def getfeed(link, index=0, max_retries=3, timeout=10):
             )
             if feed and feed.entries:
                 return feed.entries[index]
-            LOGS.error(f"No entries found for {link}")
+            LOGS.error(f"No new anime available right now... {link}")
             return None
         except TimeoutError:
             LOGS.error(f"Timeout after {timeout}s for {link}")
