@@ -18,7 +18,7 @@ pyromod==1.5
 python-dotenv
 tgcrypto
 html-telegraph-poster
-#uvloop==0.21.0
+uvloop==0.21.0
 torrentp
 ffmpeg
 asyncio
